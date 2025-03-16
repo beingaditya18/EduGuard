@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduGuard - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='eduguard_logo.png') }}" alt="EduGuard Logo" class="logo">
+        <h1>Welcome to EduGuard</h1>
+        <p class="tagline">Breaking Financial Barriers for Equal Education</p>
+        <nav>
+            <a href="{{ url_for('login') }}" class="btn">Login</a>
+            <a href="{{ url_for('signup') }}" class="btn">Sign Up</a>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Our Mission</h2>
+        <p>EduGuard is dedicated to ensuring equal access to education by providing financial aid predictions and guidance for students in need.</p>
+        
+        <h2>How It Works</h2>
+        <ul class="steps">
+            <li>📌 Enter student details</li>
+            <li>📊 AI analyzes financial aid eligibility</li>
+            <li>✅ Get recommendations & support</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 EduGuard | All rights reserved</p>
+    </footer>
+</body>
+</html>
