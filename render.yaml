@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: eduguard
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    pythonVersion: 3.9
+    envVars:
+      - key: SECRET_KEY
+        value: 0d38d09ff37fd17af94b23f4c421c9ac30480818a098ffaccfdf2ab634064be9 
+      - key: GOOGLE_API_KEY
+        value:genai.configure(api_key='AIzaSyDmIxrIJh2Zb7Ae97sFpu2GJnbUp0sPQak')  
