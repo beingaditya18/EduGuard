@@ -24,11 +24,6 @@ EduGuard is a Flask-based web application that predicts a rural student's financ
 
 ---
 
-## 📸 Screenshots
-
-> Replace this section with screenshots of the login, dashboard, and prediction results.
-
----
 
 ## 📂 Project Structure
 
