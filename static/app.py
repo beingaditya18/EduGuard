@@ -8,11 +8,11 @@ import os
 # Initialize Flask app
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///students.db'
-app.config['SECRET_KEY'] = '0d38d09ff37fd17af94b23f4c421c9ac30480818a098ffaccfdf2ab634064be9'  # Replace 'your_secret_key' with a strong, random key!
+app.config['SECRET_KEY'] = ''  # Replace 'your_secret_key' with a strong, random key!
 db = SQLAlchemy(app)
 
 # Initialize Gemini AI API
-genai.configure(api_key='AIzaSyDmIxrIJh2Zb7Ae97sFpu2GJnbUp0sPQak')  # Replace with your actual Gemini API key!
+genai.configure(api_key='')  # Replace with your actual Gemini API key!
 
 def predict_financial_aid(student):
     """Use Gemini AI to predict financial aid eligibility."""
