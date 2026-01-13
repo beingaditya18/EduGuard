@@ -1,16 +1,16 @@
-# 🎓 EduGuard – Financial Aid & Dropout Risk Prediction System
+#  EduGuard – Financial Aid & Dropout Risk Prediction System
 
 EduGuard is a Flask-based web application that predicts a rural student's financial aid eligibility and dropout risk using **Google Gemini AI**. It leverages socio-economic and academic features to assess vulnerability and provide personalized recommendations for improvement.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔐 User Signup and Login with hashed passwords (SQLAlchemy + Werkzeug)
-- 📊 Admin dashboard with student data management
-- 🧠 AI-powered dropout & risk assessment using **Gemini Pro**
-- 📁 CSV-based student data upload to SQLite database
-- 📉 Recommendations for academic and social improvement
+-  User Signup and Login with hashed passwords (SQLAlchemy + Werkzeug)
+-  Admin dashboard with student data management
+-  AI-powered dropout & risk assessment using **Gemini Pro**
+-  CSV-based student data upload to SQLite database
+-  Recommendations for academic and social improvement
 
 ---
 
@@ -25,7 +25,7 @@ EduGuard is a Flask-based web application that predicts a rural student's financ
 ---
 
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ├── app.py                # Main Flask application
